@@ -12,6 +12,7 @@
 		6225994A1E27E14C009C5FBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 622599481E27E14C009C5FBD /* Main.storyboard */; };
 		6225994C1E27E14C009C5FBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6225994B1E27E14C009C5FBD /* Assets.xcassets */; };
 		6225994F1E27E14C009C5FBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6225994D1E27E14C009C5FBD /* LaunchScreen.storyboard */; };
+		622599571E28CB27009C5FBD /* mutex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622599561E28CB27009C5FBD /* mutex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		6225994B1E27E14C009C5FBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6225994E1E27E14C009C5FBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		622599501E27E14C009C5FBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		622599561E28CB27009C5FBD /* mutex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mutex.swift; sourceTree = "<group>"; };
+		62F2DD5A1ECAD46B00CFB1B7 /* enonce */ = {isa = PBXFileReference; lastKnownFileType = text; path = enonce; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +59,12 @@
 			children = (
 				622599441E27E14C009C5FBD /* AppDelegate.swift */,
 				622599461E27E14C009C5FBD /* ViewController.swift */,
+				622599561E28CB27009C5FBD /* mutex.swift */,
 				622599481E27E14C009C5FBD /* Main.storyboard */,
 				6225994B1E27E14C009C5FBD /* Assets.xcassets */,
 				6225994D1E27E14C009C5FBD /* LaunchScreen.storyboard */,
 				622599501E27E14C009C5FBD /* Info.plist */,
+				62F2DD5A1ECAD46B00CFB1B7 /* enonce */,
 			);
 			path = LTMThread;
 			sourceTree = "<group>";
@@ -137,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				622599571E28CB27009C5FBD /* mutex.swift in Sources */,
 				622599471E27E14C009C5FBD /* ViewController.swift in Sources */,
 				622599451E27E14C009C5FBD /* AppDelegate.swift in Sources */,
 			);
@@ -300,6 +306,7 @@
 				622599551E27E14C009C5FBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

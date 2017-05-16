@@ -1,0 +1,40 @@
+// Création et travail avec la classe Thread
+//
+
+class ViewController: UIViewController {
+
+    @IBOutlet weak var stateLabel: UILabel!
+
+    // ici variables membres
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        // Créez et initialiser le thread, sélecteur = tache
+        ................................
+        print("thread init")
+
+        // Utilisez le centre de notification pour constater la fin du thread
+        // Utilisez un sélecteur pour constater la sortie
+        ................................
+    }
+
+
+    // Fonction thread ici à créer
+    // Faire boucler le thread en attendant la demande de sortie !
+    // gérer la CPU au mieux
+    func tache() {
+        .....
+    }
+
+
+    // Bouton démarrage du thread ici
+    ........................
+
+    // Bouton je stoppe le thread ici (demande)
+    ........................
+}
+
+// Option : Créer un thread lecteur et un thread écrivain et synchroniser les
+// 2 threads avec un mutex
+

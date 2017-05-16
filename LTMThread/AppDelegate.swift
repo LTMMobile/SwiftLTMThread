@@ -2,9 +2,6 @@
 //  AppDelegate.swift
 //  LTMThread
 //
-//  Created by bleclercq on 12/01/2017.
-//  Copyright © 2017 LTM. All rights reserved.
-//
 
 import UIKit
 
